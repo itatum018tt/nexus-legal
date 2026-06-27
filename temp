@@ -1,0 +1,31 @@
+
+ตรวจหาสาเหตุและรายงานผลอย่างละเอียด
+พร้อมแก้ไข
+
+
+❌ Error: Unterminated object at character 495 of {
+  "totalDuration": 16,
+  "textLengthMode": "medium",
+  "viralAngle": "ai_generate",
+  "backgroundCategory": "thai_countryside",
+  "backgroundId": "null",
+  "selectedCharacterId": "yai",
+  "selectedPetId": "cat_tabby",
+  "petAction": "null",
+  "voScriptMode": "force_manual",
+  "transitionStyle": "asmr_zen",
+  "productCategory": "general_products",
+  "aiModel": "gemini-3.5-pro",
+  "customVoScript": "🎯 TITLE: [B] ยายช็อปถล่มจนสต็อกแทบแตก
+📊 VIRAL SCORE: 88/100
+
+🗣️ SCRIPT CONTENT:
+[0-2s] "อย่านั่งเฉยๆ ลูกเอ๊ย! ยายแถวบ้านเค้าแห่เหมาผ้าขนหนู MAPLE'S จนจะหมดโกดังแล้ว!" (SFX: เสียงแตรแจ้งเตือนด่วน) [2-8s] "ก็ไอ้ผ้าขนหนูออร์แกนิกคอตตอนเกรดโรงแรม 5 ดาวผืนเนี้ย เค้าลดราคาพิเศษรอบนี้รอบเดียว หมดแล้วหมดเลย" [8-15s] "ทอด้ายคู่หนาแน่น นุ่มฟูจนตาแกลงไปนอนคลุมโปงไม่ยอมตื่น ยายสอยมาทั้งสิบห้าคูณสามสิบและยี่สิบเจ็ดคูณห้าสิบสี่เลย" [15-22s] "ของเกรดพรีเมี่ยมขนาดนี้ ราคาเท่านี้ ไม่มีอีกแล้ว ช้ากว่านี้คือรอผลิตใหม่อีกครึ่งปีนะลูก" [22-30s] "นิ้วต้องไว กดปุ่มสีเหลืองข้างล่างตอนเนี้ย! ก่อนที่แม่บ้านคนอื่นจะแย่งไปหมดนะจ๊ะ!"
+
+🎬 RETENTION STRATEGY (SFX INJECTIONS):
+- At 5.0s: Inject [bell_ding] (Reason: โชว์สัมผัสนุ่มและหนาด้ายคู่ชัดๆ ป้องกันคนกดปัดหนี)
+",
+  "productImageAttached": true
+}
+
+
