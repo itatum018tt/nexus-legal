@@ -1,0 +1,443 @@
+ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Android (13624864, +pgo, -bolt, +lto, -mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+  configuration: --prefix=/Users/wuzongheng/DEV/ffmpeg/build/androidOut/armv8-a --disable-gpl --disable-nonfree --enable-static --disable-shared --enable-small --disable-vulkan --enable-runtime-cpudetect --enable-gray --enable-swscale-alpha --enable-ffmpeg --enable-ffplay --enable-ffprobe --enable-doc --enable-htmlpages --enable-manpages --enable-podpages --enable-txtpages --enable-avdevice --enable-avcodec --enable-avformat --enable-avutil --enable-swresample --enable-swscale --enable-avfilter --enable-network --disable-d3d11va --disable-dxva2 --disable-vaapi --disable-vdpau --disable-videotoolbox --enable-encoders --enable-decoders --enable-hwaccels --enable-muxers --enable-demuxers --enable-parsers --enable-bsfs --enable-protocols --enable-filters --enable-iconv --disable-audiotoolbox --enable-linux-perf --disable-bzlib --enable-jni --enable-mediacodec --enable-decoder=h264_mediacodec --enable-decoder=hevc_mediacodec --enable-decoder=mpeg4_mediacodec --target-os=android --arch=aarch64 --cpu=armv8-a --cc=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android28-clang --cxx=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android28-clang++ --ar=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar --nm=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-nm --ranlib=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib --strip=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip --enable-cross-compile --sysroot=/Users/wuzongheng/Library/Android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/darwin-x86_64/sysroot --extra-cflags='-Os -fpic -march=armv8-a' --extra-ldflags=
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/block_0_preloop.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Duration: 00:00:08.02, start: 0.062000, bitrate: 2083 kb/s
+  Stream #0:0[0x1](und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 1953 kb/s, 24 fps, 24 tbr, 12288 tbn, start 0.083008 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s, start 0.062000 (default)
+    Metadata:
+      handler_name    : SoundHandler
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/block_1_preloop.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Duration: 00:00:08.02, start: 0.062000, bitrate: 2041 kb/s
+  Stream #1:0[0x1](und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 1911 kb/s, 24 fps, 24 tbr, 12288 tbn, start 0.083008 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #1:1[0x2](und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s, start 0.062000 (default)
+    Metadata:
+      handler_name    : SoundHandler
+Input #2, mov,mp4,m4a,3gp,3g2,mj2, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/block_2_preloop.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Duration: 00:00:08.02, start: 0.062000, bitrate: 2126 kb/s
+  Stream #2:0[0x1](und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 1996 kb/s, 24 fps, 24 tbr, 12288 tbn, start 0.083008 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #2:1[0x2](und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s, start 0.062000 (default)
+    Metadata:
+      handler_name    : SoundHandler
+Input #3, mov,mp4,m4a,3gp,3g2,mj2, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/block_3_preloop.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Duration: 00:00:08.02, start: 0.062000, bitrate: 1978 kb/s
+  Stream #3:0[0x1](und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 1847 kb/s, 24 fps, 24 tbr, 12288 tbn, start 0.083008 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #3:1[0x2](und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s, start 0.062000 (default)
+    Metadata:
+      handler_name    : SoundHandler
+Input #4, mov,mp4,m4a,3gp,3g2,mj2, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/block_4_preloop.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Duration: 00:00:08.02, start: 0.062000, bitrate: 2079 kb/s
+  Stream #4:0[0x1](und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 1948 kb/s, 24 fps, 24 tbr, 12288 tbn, start 0.083008 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #4:1[0x2](und): Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s, start 0.062000 (default)
+    Metadata:
+      handler_name    : SoundHandler
+[in#5 @ 0xb400007e5a6a9000] Skipping 48 bytes of junk at 70.
+[in#5/mp3 @ 0xb400007e5a6a9000] Estimating duration from bitrate, this may be inaccurate
+Input #5, mp3, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/bgm_11.mp3':
+  Duration: 00:01:44.05, start: 0.000000, bitrate: 256 kb/s
+  Stream #5:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 256 kb/s
+[aist#6:0/pcm_s16le @ 0xb400007e5e242a00] Guessed Channel Layout: mono
+Input #6, wav, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/whoosh_sfx.wav':
+  Duration: 00:00:00.80, bitrate: 706 kb/s
+  Stream #6:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[aist#7:0/pcm_s16le @ 0xb400007e5e242b80] Guessed Channel Layout: mono
+Input #7, wav, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/boom_sfx.wav':
+  Duration: 00:00:00.80, bitrate: 706 kb/s
+  Stream #7:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[aist#8:0/pcm_s16le @ 0xb400007e5e242d00] Guessed Channel Layout: mono
+Input #8, wav, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/dash_sfx.wav':
+  Duration: 00:00:00.80, bitrate: 706 kb/s
+  Stream #8:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+[aist#9:0/pcm_s16le @ 0xb400007e5e242e80] Guessed Channel Layout: mono
+Input #9, wav, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/pop_sfx.wav':
+  Duration: 00:00:00.80, bitrate: 706 kb/s
+  Stream #9:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s
+Input #10, png_pipe, from '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/watermark.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgba(pc, gbr/unknown/unknown), 1536x1024, 25 fps, 25 tbr, 25 tbn
+[h264_mediacodec @ 0xb400007e5a66fa00] Both surface and native_window are NULL
+[h264_mediacodec @ 0xb400007e5a66fa00] Using surface 0x0
+[h264_mediacodec @ 0xb400007e5a66fa00] No Java virtual machine has been registered
+[h264_mediacodec @ 0xb400007e5a66fa00] Failed to getCodecNameByType
+[h264_mediacodec @ 0xb400007e5a66fa00] Output crop parameters top=0 bottom=0 left=0 right=0, resulting dimensions width=720 height=1280
+[h264_mediacodec @ 0xb400007e5a66fa00] MediaCodec started successfully: codec = c2.mtk.avc.decoder, ret = 0
+Stream mapping:
+  Stream #0:0 (h264_mediacodec) -> split:default
+  Stream #0:1 (aac) -> aresample:default
+  Stream #1:0 (h264) -> split:default
+  Stream #1:1 (aac) -> aresample:default
+  Stream #2:0 (h264) -> split:default
+  Stream #2:1 (aac) -> aresample:default
+  Stream #3:0 (h264) -> split:default
+  Stream #3:1 (aac) -> aresample:default
+  Stream #4:0 (h264) -> split:default
+  Stream #4:1 (aac) -> aresample:default
+  Stream #5:0 (mp3float) -> aresample:default
+  Stream #6:0 (pcm_s16le) -> volume:default
+  Stream #8:0 (pcm_s16le) -> volume:default
+  Stream #9:0 (pcm_s16le) -> volume:default
+  Stream #10:0 (png) -> colorchannelmixer:default
+  overlay:default -> Stream #0:0 (h264_mediacodec)
+  amix:default -> Stream #0:1 (aac)
+[h264_mediacodec @ 0xb400007e5a66fa00] Output MediaFormat changed to android._color-format: int32(4096), android._video-scaling: int32(1), sar-width: int32(1), color-standard: int32(0), color-range: int32(2), color-transfer: int32(0), android._dataspace: int32(268435456), width: int32(720), rotation-degrees: int32(0), sar-height: int32(1), max-width: int32(720), max-height: int32(1280), priority: int32(-1), mime: string(video/raw), crop: Rect(0, 0, 719, 1279), hdr-static-info: data, frame-rate: int32(0), height: int32(1280), color-format: int32(19), num-input-slots: int32(8), num-output-slots: int32(17), image-data: data, stride: int32(720), slice-height: int32(1280)}
+[h264_mediacodec @ 0xb400007e5a66fa00] Output crop parameters top=0 bottom=0 left=0 right=0, resulting dimensions width=720 height=1280
+[h264_mediacodec @ 0xb400007e5a66fa00] Output MediaFormat changed to android._color-format: int32(4096), android._video-scaling: int32(1), sar-width: int32(1), color-standard: int32(0), color-range: int32(2), color-transfer: int32(0), android._dataspace: int32(268435456), width: int32(720), rotation-degrees: int32(0), sar-height: int32(1), max-width: int32(720), max-height: int32(1280), priority: int32(-1), mime: string(video/raw), crop: Rect(0, 0, 719, 1279), hdr-static-info: data, frame-rate: int32(0), height: int32(1280), color-format: int32(19), num-input-slots: int32(8), num-output-slots: int32(17), image-data: data, stride: int32(720), slice-height: int32(1280)}
+[h264_mediacodec @ 0xb400007e5a66fa00] Output crop parameters top=0 bottom=0 left=0 right=0, resulting dimensions width=720 height=1280
+[swscaler @ 0xb400007d25fca000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d257ae000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d250a2000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d2510d000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d25171000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d251c3000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d1ce26000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d1ce88000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007d25fca000] [swscaler @ 0xb400007d1cf02000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[h264_mediacodec @ 0xb400007e5a66ef80] Use 1 as the default MediaFormat i-frame-interval, please set gop_size properly (>= fps)
+Output #0, mp4, to '/data/user/0/com.aistudio.promptparser.kxz.debug/cache/luxury_render_1782712310583.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 8000 kb/s, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.28.101 h264_mediacodec
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 aac
+frame=   27 fps=6.7 q=-0.0 size=       0KiB time=00:00:00.00 bitrate=N/A speed=   0x elapsed=0:00:04.00    
+frame=   32 fps=7.1 q=-0.0 size=       0KiB time=00:00:00.12 bitrate=   3.0kbits/s speed=0.0284x elapsed=0:00:04.50    
+frame=   36 fps=7.2 q=-0.0 size=       0KiB time=00:00:00.27 bitrate=   1.4kbits/s speed=0.0554x elapsed=0:00:05.00    
+frame=   41 fps=7.5 q=-0.0 size=       0KiB time=00:00:00.34 bitrate=   1.1kbits/s speed=0.062x elapsed=0:00:05.50    
+frame=   46 fps=7.7 q=-0.0 size=     256KiB time=00:00:00.42 bitrate=4916.1kbits/s speed=0.0711x elapsed=0:00:06.00    
+frame=   51 fps=7.8 q=-0.0 size=     256KiB time=00:00:00.59 bitrate=3511.5kbits/s speed=0.0918x elapsed=0:00:06.50    
+frame=   55 fps=7.9 q=-0.0 size=     512KiB time=00:00:00.76 bitrate=5461.8kbits/s speed=0.11x elapsed=0:00:07.00    
+frame=   60 fps=8.0 q=-0.0 size=     512KiB time=00:00:00.83 bitrate=5041.7kbits/s speed=0.111x elapsed=0:00:07.50    
+frame=   65 fps=8.1 q=-0.0 size=     512KiB time=00:00:00.96 bitrate=4369.5kbits/s speed=0.12x elapsed=0:00:08.00    
+frame=   68 fps=8.0 q=-0.0 size=     768KiB time=00:00:01.02 bitrate=6144.4kbits/s speed=0.12x elapsed=0:00:08.50    
+frame=   73 fps=8.1 q=-0.0 size=    1024KiB time=00:00:01.32 bitrate=6342.5kbits/s speed=0.147x elapsed=0:00:09.00    
+frame=   77 fps=8.1 q=-0.0 size=    1024KiB time=00:00:01.40 bitrate=5958.1kbits/s speed=0.148x elapsed=0:00:09.50    
+frame=   82 fps=8.2 q=-0.0 size=    1024KiB time=00:00:01.55 bitrate=5386.8kbits/s speed=0.156x elapsed=0:00:10.00    
+frame=   86 fps=8.2 q=-0.0 size=    1280KiB time=00:00:01.74 bitrate=5994.4kbits/s speed=0.166x elapsed=0:00:10.51    
+frame=   91 fps=8.3 q=-0.0 size=    1280KiB time=00:00:01.83 bitrate=5715.6kbits/s speed=0.167x elapsed=0:00:11.01    
+frame=   96 fps=8.3 q=-0.0 size=    1536KiB time=00:00:02.09 bitrate=6018.8kbits/s speed=0.182x elapsed=0:00:11.51    
+frame=  101 fps=8.4 q=-0.0 size=    1536KiB time=00:00:02.17 bitrate=5782.8kbits/s speed=0.181x elapsed=0:00:12.01    
+frame=  105 fps=8.4 q=-0.0 size=    1536KiB time=00:00:02.24 bitrate=5617.5kbits/s speed=0.179x elapsed=0:00:12.51    
+frame=  110 fps=8.5 q=-0.0 size=    1792KiB time=00:00:02.41 bitrate=6089.8kbits/s speed=0.185x elapsed=0:00:13.01    
+frame=  113 fps=8.4 q=-0.0 size=    1792KiB time=00:00:02.49 bitrate=5881.6kbits/s speed=0.185x elapsed=0:00:13.51    
+frame=  118 fps=8.4 q=-0.0 size=    1792KiB time=00:00:02.75 bitrate=5334.5kbits/s speed=0.196x elapsed=0:00:14.01    
+frame=  122 fps=8.4 q=-0.0 size=    2048KiB time=00:00:02.96 bitrate=5657.9kbits/s speed=0.204x elapsed=0:00:14.51    
+frame=  127 fps=8.5 q=-0.0 size=    2048KiB time=00:00:03.02 bitrate=5538.4kbits/s speed=0.202x elapsed=0:00:15.01    
+frame=  131 fps=8.4 q=-0.0 size=    2304KiB time=00:00:03.13 bitrate=6018.7kbits/s speed=0.202x elapsed=0:00:15.51    
+frame=  136 fps=8.5 q=-0.0 size=    2304KiB time=00:00:03.24 bitrate=5820.7kbits/s speed=0.202x elapsed=0:00:16.02    
+frame=  141 fps=8.5 q=-0.0 size=    2304KiB time=00:00:03.32 bitrate=5671.5kbits/s speed=0.201x elapsed=0:00:16.52    
+frame=  146 fps=8.6 q=-0.0 size=    2560KiB time=00:00:03.54 bitrate=5922.0kbits/s speed=0.208x elapsed=0:00:17.02    
+frame=  151 fps=8.6 q=-0.0 size=    2560KiB time=00:00:03.62 bitrate=5782.7kbits/s speed=0.207x elapsed=0:00:17.52    
+frame=  155 fps=8.6 q=-0.0 size=    2816KiB time=00:00:03.96 bitrate=5813.8kbits/s speed=0.22x elapsed=0:00:18.02    
+frame=  160 fps=8.6 q=-0.0 size=    3072KiB time=00:00:04.11 bitrate=6112.3kbits/s speed=0.222x elapsed=0:00:18.52    
+frame=  163 fps=8.6 q=-0.0 size=    3328KiB time=00:00:04.43 bitrate=6144.1kbits/s speed=0.233x elapsed=0:00:19.02    
+frame=  168 fps=8.6 q=-0.0 size=    3328KiB time=00:00:04.52 bitrate=6028.2kbits/s speed=0.232x elapsed=0:00:19.52    
+frame=  172 fps=8.6 q=-0.0 size=    3584KiB time=00:00:04.67 bitrate=6284.4kbits/s speed=0.233x elapsed=0:00:20.02    
+frame=  177 fps=8.6 q=-0.0 size=    3840KiB time=00:00:04.97 bitrate=6328.7kbits/s speed=0.242x elapsed=0:00:20.53    
+frame=  181 fps=8.6 q=-0.0 size=    3840KiB time=00:00:05.01 bitrate=6274.8kbits/s speed=0.238x elapsed=0:00:21.03    
+frame=  186 fps=8.6 q=-0.0 size=    3840KiB time=00:00:05.16 bitrate=6093.3kbits/s speed=0.24x elapsed=0:00:21.53    
+frame=  191 fps=8.7 q=-0.0 size=    4096KiB time=00:00:05.39 bitrate=6216.9kbits/s speed=0.245x elapsed=0:00:22.03    
+frame=  196 fps=8.7 q=-0.0 size=    4352KiB time=00:00:05.54 bitrate=6427.6kbits/s speed=0.246x elapsed=0:00:22.53    
+frame=  201 fps=8.7 q=-0.0 size=    4352KiB time=00:00:05.63 bitrate=6330.2kbits/s speed=0.244x elapsed=0:00:23.04    
+frame=  205 fps=8.7 q=-0.0 size=    4352KiB time=00:00:05.76 bitrate=6189.6kbits/s speed=0.245x elapsed=0:00:23.54    
+frame=  210 fps=8.7 q=-0.0 size=    4608KiB time=00:00:05.95 bitrate=6342.3kbits/s speed=0.248x elapsed=0:00:24.04    
+frame=  215 fps=8.8 q=-0.0 size=    4608KiB time=00:00:06.03 bitrate=6252.6kbits/s speed=0.246x elapsed=0:00:24.54    
+frame=  219 fps=8.7 q=-0.0 size=    4864KiB time=00:00:06.16 bitrate=6463.0kbits/s speed=0.246x elapsed=0:00:25.04    
+frame=  223 fps=8.7 q=-0.0 size=    4864KiB time=00:00:06.25 bitrate=6374.7kbits/s speed=0.245x elapsed=0:00:25.54    
+frame=  227 fps=8.7 q=-0.0 size=    5376KiB time=00:00:06.84 bitrate=6431.2kbits/s speed=0.263x elapsed=0:00:26.04    
+frame=  228 fps=8.6 q=-0.0 size=    5376KiB time=00:00:06.89 bitrate=6391.3kbits/s speed=0.26x elapsed=0:00:26.54    
+[swscaler @ 0xb400007e017a6000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007cff9ef000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007e01561000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007cf9b84000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007e0bbd1000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007e08bd1000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007dfa7ba000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007cf93b3000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e017a6000] [swscaler @ 0xb400007dfd919000] No accelerated colorspace conversion found from yuva420p to gbrap.
+frame=  231 fps=8.5 q=-0.0 size=    5376KiB time=00:00:06.89 bitrate=6391.3kbits/s speed=0.255x elapsed=0:00:27.04    
+frame=  234 fps=8.5 q=-0.0 size=    5376KiB time=00:00:06.89 bitrate=6391.3kbits/s speed=0.25x elapsed=0:00:27.55    
+frame=  234 fps=8.3 q=-0.0 size=    5376KiB time=00:00:07.04 bitrate=6255.8kbits/s speed=0.251x elapsed=0:00:28.05    
+frame=  234 fps=8.2 q=-0.0 size=    5632KiB time=00:00:07.25 bitrate=6360.9kbits/s speed=0.254x elapsed=0:00:28.55    
+frame=  234 fps=8.1 q=-0.0 size=    5632KiB time=00:00:07.25 bitrate=6360.9kbits/s speed=0.25x elapsed=0:00:29.05    
+frame=  234 fps=7.9 q=-0.0 size=    5888KiB time=00:00:07.59 bitrate=6351.2kbits/s speed=0.257x elapsed=0:00:29.55    
+frame=  234 fps=7.8 q=-0.0 size=    5888KiB time=00:00:07.59 bitrate=6351.2kbits/s speed=0.253x elapsed=0:00:30.05    
+frame=  236 fps=7.7 q=-0.0 size=    6144KiB time=00:00:07.83 bitrate=6425.4kbits/s speed=0.256x elapsed=0:00:30.55    
+frame=  241 fps=7.8 q=-0.0 size=    6400KiB time=00:00:08.00 bitrate=6553.6kbits/s speed=0.258x elapsed=0:00:31.05    
+frame=  250 fps=7.9 q=-0.0 size=    6400KiB time=00:00:08.27 bitrate=6334.1kbits/s speed=0.262x elapsed=0:00:31.55    
+frame=  254 fps=7.9 q=-0.0 size=    6656KiB time=00:00:08.38 bitrate=6503.6kbits/s speed=0.262x elapsed=0:00:32.05    
+frame=  259 fps=8.0 q=-0.0 size=    6656KiB time=00:00:08.53 bitrate=6389.8kbits/s speed=0.262x elapsed=0:00:32.55    
+frame=  264 fps=8.0 q=-0.0 size=    6656KiB time=00:00:08.76 bitrate=6219.7kbits/s speed=0.265x elapsed=0:00:33.06    
+frame=  269 fps=8.0 q=-0.0 size=    6912KiB time=00:00:08.93 bitrate=6338.5kbits/s speed=0.266x elapsed=0:00:33.56    
+frame=  274 fps=8.0 q=-0.0 size=    6912KiB time=00:00:09.04 bitrate=6260.0kbits/s speed=0.266x elapsed=0:00:34.06    
+frame=  278 fps=8.0 q=-0.0 size=    7168KiB time=00:00:09.10 bitrate=6446.2kbits/s speed=0.264x elapsed=0:00:34.56    
+frame=  283 fps=8.1 q=-0.0 size=    7168KiB time=00:00:09.25 bitrate=6342.2kbits/s speed=0.264x elapsed=0:00:35.06    
+frame=  288 fps=8.1 q=-0.0 size=    7424KiB time=00:00:09.49 bitrate=6406.4kbits/s speed=0.267x elapsed=0:00:35.56    
+frame=  292 fps=8.1 q=-0.0 size=    7424KiB time=00:00:09.57 bitrate=6349.3kbits/s speed=0.266x elapsed=0:00:36.06    
+frame=  297 fps=8.1 q=-0.0 size=    7680KiB time=00:00:09.81 bitrate=6411.2kbits/s speed=0.268x elapsed=0:00:36.56    
+frame=  302 fps=8.1 q=-0.0 size=    7680KiB time=00:00:09.92 bitrate=6342.2kbits/s speed=0.268x elapsed=0:00:37.06    
+frame=  307 fps=8.2 q=-0.0 size=    7936KiB time=00:00:10.15 bitrate=6402.2kbits/s speed=0.27x elapsed=0:00:37.56    
+frame=  311 fps=8.2 q=-0.0 size=    7936KiB time=00:00:10.24 bitrate=6348.8kbits/s speed=0.269x elapsed=0:00:38.06    
+frame=  316 fps=8.2 q=-0.0 size=    8192KiB time=00:00:10.38 bitrate=6459.4kbits/s speed=0.269x elapsed=0:00:38.57    
+frame=  321 fps=8.2 q=-0.0 size=    8192KiB time=00:00:10.51 bitrate=6380.8kbits/s speed=0.269x elapsed=0:00:39.07    
+frame=  324 fps=8.2 q=-0.0 size=    8448KiB time=00:00:10.68 bitrate=6475.1kbits/s speed=0.27x elapsed=0:00:39.57    
+frame=  329 fps=8.2 q=-0.0 size=    8448KiB time=00:00:10.79 bitrate=6411.2kbits/s speed=0.269x elapsed=0:00:40.07    
+frame=  334 fps=8.2 q=-0.0 size=    8704KiB time=00:00:10.96 bitrate=6502.6kbits/s speed=0.27x elapsed=0:00:40.57    
+frame=  339 fps=8.3 q=-0.0 size=    8704KiB time=00:00:11.20 bitrate=6366.4kbits/s speed=0.273x elapsed=0:00:41.07    
+frame=  343 fps=8.2 q=-0.0 size=    8960KiB time=00:00:11.37 bitrate=6455.3kbits/s speed=0.273x elapsed=0:00:41.57    
+frame=  348 fps=8.3 q=-0.0 size=    8960KiB time=00:00:11.43 bitrate=6419.1kbits/s speed=0.272x elapsed=0:00:42.08    
+frame=  352 fps=8.3 q=-0.0 size=    8960KiB time=00:00:11.58 bitrate=6336.4kbits/s speed=0.272x elapsed=0:00:42.58    
+frame=  357 fps=8.3 q=-0.0 size=    9216KiB time=00:00:11.66 bitrate=6469.8kbits/s speed=0.271x elapsed=0:00:43.08    
+frame=  362 fps=8.3 q=-0.0 size=    9216KiB time=00:00:11.90 bitrate=6342.2kbits/s speed=0.273x elapsed=0:00:43.58    
+frame=  367 fps=8.3 q=-0.0 size=    9472KiB time=00:00:12.07 bitrate=6426.3kbits/s speed=0.274x elapsed=0:00:44.08    
+frame=  371 fps=8.3 q=-0.0 size=    9472KiB time=00:00:12.24 bitrate=6336.7kbits/s speed=0.275x elapsed=0:00:44.58    
+frame=  376 fps=8.3 q=-0.0 size=    9728KiB time=00:00:12.39 bitrate=6429.6kbits/s speed=0.275x elapsed=0:00:45.08    
+frame=  381 fps=8.4 q=-0.0 size=    9728KiB time=00:00:12.54 bitrate=6353.0kbits/s speed=0.275x elapsed=0:00:45.58    
+frame=  386 fps=8.4 q=-0.0 size=    9984KiB time=00:00:12.69 bitrate=6443.5kbits/s speed=0.275x elapsed=0:00:46.08    
+frame=  389 fps=8.3 q=-0.0 size=    9984KiB time=00:00:12.86 bitrate=6358.0kbits/s speed=0.276x elapsed=0:00:46.59    
+frame=  394 fps=8.4 q=-0.0 size=    9984KiB time=00:00:12.97 bitrate=6305.7kbits/s speed=0.275x elapsed=0:00:47.09    
+frame=  399 fps=8.4 q=-0.0 size=   10240KiB time=00:00:13.12 bitrate=6393.8kbits/s speed=0.276x elapsed=0:00:47.59    
+frame=  403 fps=8.4 q=-0.0 size=   10496KiB time=00:00:13.29 bitrate=6469.5kbits/s speed=0.276x elapsed=0:00:48.09    
+frame=  408 fps=8.4 q=-0.0 size=   10496KiB time=00:00:13.46 bitrate=6387.5kbits/s speed=0.277x elapsed=0:00:48.59    
+frame=  413 fps=8.4 q=-0.0 size=   10496KiB time=00:00:13.58 bitrate=6327.3kbits/s speed=0.277x elapsed=0:00:49.09    
+frame=  417 fps=8.4 q=-0.0 size=   10752KiB time=00:00:13.80 bitrate=6381.4kbits/s speed=0.278x elapsed=0:00:49.59    
+frame=  422 fps=8.4 q=-0.0 size=   10752KiB time=00:00:13.88 bitrate=6342.2kbits/s speed=0.277x elapsed=0:00:50.09    
+frame=  427 fps=8.4 q=-0.0 size=   11008KiB time=00:00:14.20 bitrate=6350.6kbits/s speed=0.281x elapsed=0:00:50.59    
+frame=  433 fps=8.5 q=-0.0 size=   11264KiB time=00:00:14.29 bitrate=6455.8kbits/s speed=0.28x elapsed=0:00:51.10    
+frame=  437 fps=8.5 q=-0.0 size=   11264KiB time=00:00:14.42 bitrate=6398.5kbits/s speed=0.279x elapsed=0:00:51.60    
+frame=  442 fps=8.5 q=-0.0 size=   11264KiB time=00:00:14.50 bitrate=6360.9kbits/s speed=0.278x elapsed=0:00:52.10    
+frame=  448 fps=8.5 q=-0.0 size=   11520KiB time=00:00:14.90 bitrate=6333.7kbits/s speed=0.283x elapsed=0:00:52.60    
+[swscaler @ 0xb400007e01bdc000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007e0c1d1000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007ce37b9000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007e57575000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007e01711000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007dfd9ee000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007e08faa000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007e08a0d000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007e01bdc000] [swscaler @ 0xb400007e08a58000] No accelerated colorspace conversion found from yuva420p to gbrap.
+frame=  454 fps=8.5 q=-0.0 size=   11776KiB time=00:00:15.10 bitrate=6388.7kbits/s speed=0.284x elapsed=0:00:53.10    
+frame=  454 fps=8.5 q=-0.0 size=   11776KiB time=00:00:15.10 bitrate=6388.7kbits/s speed=0.282x elapsed=0:00:53.61    
+frame=  454 fps=8.4 q=-0.0 size=   11776KiB time=00:00:15.10 bitrate=6388.7kbits/s speed=0.279x elapsed=0:00:54.11    
+frame=  465 fps=8.5 q=-0.0 size=   12032KiB time=00:00:15.46 bitrate=6372.8kbits/s speed=0.283x elapsed=0:00:54.61    
+frame=  474 fps=8.6 q=-0.0 size=   12288KiB time=00:00:15.72 bitrate=6402.5kbits/s speed=0.285x elapsed=0:00:55.11    
+frame=  478 fps=8.6 q=-0.0 size=   12288KiB time=00:00:15.76 bitrate=6385.1kbits/s speed=0.283x elapsed=0:00:55.61    
+frame=  483 fps=8.6 q=-0.0 size=   12288KiB time=00:00:15.80 bitrate=6367.9kbits/s speed=0.282x elapsed=0:00:56.12    
+frame=  488 fps=8.6 q=-0.0 size=   12544KiB time=00:00:15.93 bitrate=6448.3kbits/s speed=0.281x elapsed=0:00:56.62    
+frame=  493 fps=8.6 q=-0.0 size=   12544KiB time=00:00:16.17 bitrate=6354.8kbits/s speed=0.283x elapsed=0:00:57.12    
+frame=  497 fps=8.6 q=-0.0 size=   12800KiB time=00:00:16.25 bitrate=6450.4kbits/s speed=0.282x elapsed=0:00:57.62    
+frame=  502 fps=8.6 q=-0.0 size=   12800KiB time=00:00:16.42 bitrate=6383.4kbits/s speed=0.283x elapsed=0:00:58.12    
+frame=  505 fps=8.6 q=-0.0 size=   13056KiB time=00:00:16.57 bitrate=6452.4kbits/s speed=0.283x elapsed=0:00:58.62    
+frame=  510 fps=8.6 q=-0.0 size=   13056KiB time=00:00:16.72 bitrate=6394.8kbits/s speed=0.283x elapsed=0:00:59.12    
+frame=  514 fps=8.6 q=-0.0 size=   13056KiB time=00:00:16.78 bitrate=6370.4kbits/s speed=0.282x elapsed=0:00:59.62    
+frame=  519 fps=8.6 q=-0.0 size=   13312KiB time=00:00:16.98 bitrate=6421.9kbits/s speed=0.282x elapsed=0:01:00.12    
+frame=  524 fps=8.6 q=-0.0 size=   13312KiB time=00:00:17.13 bitrate=6365.9kbits/s speed=0.283x elapsed=0:01:00.62    
+frame=  528 fps=8.6 q=-0.0 size=   13568KiB time=00:00:17.32 bitrate=6416.4kbits/s speed=0.283x elapsed=0:01:01.13    
+frame=  533 fps=8.6 q=-0.0 size=   13568KiB time=00:00:17.38 bitrate=6392.8kbits/s speed=0.282x elapsed=0:01:01.63    
+frame=  538 fps=8.7 q=-0.0 size=   13824KiB time=00:00:17.60 bitrate=6434.5kbits/s speed=0.283x elapsed=0:01:02.13    
+frame=  543 fps=8.7 q=-0.0 size=   13824KiB time=00:00:17.72 bitrate=6388.0kbits/s speed=0.283x elapsed=0:01:02.63    
+frame=  547 fps=8.7 q=-0.0 size=   14080KiB time=00:00:17.96 bitrate=6421.3kbits/s speed=0.285x elapsed=0:01:03.13    
+frame=  552 fps=8.7 q=-0.0 size=   14080KiB time=00:00:18.02 bitrate=6398.5kbits/s speed=0.283x elapsed=0:01:03.63    
+frame=  555 fps=8.7 q=-0.0 size=   14336KiB time=00:00:18.17 bitrate=6461.3kbits/s speed=0.283x elapsed=0:01:04.13    
+frame=  560 fps=8.7 q=-0.0 size=   14336KiB time=00:00:18.32 bitrate=6408.7kbits/s speed=0.284x elapsed=0:01:04.63    
+frame=  565 fps=8.7 q=-0.0 size=   14592KiB time=00:00:18.53 bitrate=6448.0kbits/s speed=0.285x elapsed=0:01:05.14    
+frame=  569 fps=8.7 q=-0.0 size=   14592KiB time=00:00:18.62 bitrate=6418.5kbits/s speed=0.284x elapsed=0:01:05.64    
+frame=  574 fps=8.7 q=-0.0 size=   14592KiB time=00:00:18.85 bitrate=6338.6kbits/s speed=0.285x elapsed=0:01:06.14    
+frame=  578 fps=8.7 q=-0.0 size=   14848KiB time=00:00:18.96 bitrate=6413.6kbits/s speed=0.285x elapsed=0:01:06.64    
+frame=  583 fps=8.7 q=-0.0 size=   15104KiB time=00:00:19.13 bitrate=6465.9kbits/s speed=0.285x elapsed=0:01:07.14    
+frame=  588 fps=8.7 q=-0.0 size=   15104KiB time=00:00:19.26 bitrate=6423.0kbits/s speed=0.285x elapsed=0:01:07.64    
+frame=  593 fps=8.7 q=-0.0 size=   15104KiB time=00:00:19.47 bitrate=6352.6kbits/s speed=0.286x elapsed=0:01:08.14    
+frame=  598 fps=8.7 q=-0.0 size=   15360KiB time=00:00:19.62 bitrate=6411.1kbits/s speed=0.286x elapsed=0:01:08.64    
+frame=  602 fps=8.7 q=-0.0 size=   15360KiB time=00:00:19.69 bitrate=6390.3kbits/s speed=0.285x elapsed=0:01:09.14    
+frame=  607 fps=8.7 q=-0.0 size=   15616KiB time=00:00:19.92 bitrate=6420.3kbits/s speed=0.286x elapsed=0:01:09.64    
+frame=  610 fps=8.7 q=-0.0 size=   15616KiB time=00:00:20.05 bitrate=6379.3kbits/s speed=0.286x elapsed=0:01:10.14    
+frame=  615 fps=8.7 q=-0.0 size=   15872KiB time=00:00:20.13 bitrate=6456.4kbits/s speed=0.285x elapsed=0:01:10.65    
+frame=  620 fps=8.7 q=-0.0 size=   15872KiB time=00:00:20.35 bitrate=6388.7kbits/s speed=0.286x elapsed=0:01:11.15    
+frame=  624 fps=8.7 q=-0.0 size=   16128KiB time=00:00:20.48 bitrate=6451.2kbits/s speed=0.286x elapsed=0:01:11.65    
+frame=  629 fps=8.7 q=-0.0 size=   16384KiB time=00:00:20.73 bitrate=6472.7kbits/s speed=0.287x elapsed=0:01:12.15    
+frame=  633 fps=8.7 q=-0.0 size=   16384KiB time=00:00:20.73 bitrate=6472.7kbits/s speed=0.285x elapsed=0:01:12.65    
+frame=  638 fps=8.7 q=-0.0 size=   16384KiB time=00:00:20.97 bitrate=6400.3kbits/s speed=0.287x elapsed=0:01:13.15    
+frame=  643 fps=8.7 q=-0.0 size=   16640KiB time=00:00:21.12 bitrate=6454.3kbits/s speed=0.287x elapsed=0:01:13.66    
+frame=  648 fps=8.7 q=-0.0 size=   16640KiB time=00:00:21.24 bitrate=6415.4kbits/s speed=0.287x elapsed=0:01:14.16    
+frame=  653 fps=8.7 q=-0.0 size=   16896KiB time=00:00:21.54 bitrate=6423.8kbits/s speed=0.289x elapsed=0:01:14.66    
+frame=  657 fps=8.7 q=-0.0 size=   16896KiB time=00:00:21.67 bitrate=6385.9kbits/s speed=0.288x elapsed=0:01:15.16    
+frame=  662 fps=8.7 q=-0.0 size=   17152KiB time=00:00:21.76 bitrate=6457.2kbits/s speed=0.288x elapsed=0:01:15.66    
+frame=  665 fps=8.7 q=-0.0 size=   17152KiB time=00:00:21.80 bitrate=6444.6kbits/s speed=0.286x elapsed=0:01:16.16    
+frame=  670 fps=8.7 q=-0.0 size=   17152KiB time=00:00:22.01 bitrate=6382.2kbits/s speed=0.287x elapsed=0:01:16.66    
+frame=  674 fps=8.7 q=-0.0 size=   17408KiB time=00:00:22.12 bitrate=6446.2kbits/s speed=0.287x elapsed=0:01:17.16    
+frame=  679 fps=8.7 q=-0.0 size=   17664KiB time=00:00:22.35 bitrate=6472.3kbits/s speed=0.288x elapsed=0:01:17.66    
+frame=  684 fps=8.8 q=-0.0 size=   17664KiB time=00:00:22.37 bitrate=6466.2kbits/s speed=0.286x elapsed=0:01:18.16    
+frame=  688 fps=8.7 q=-0.0 size=   17664KiB time=00:00:22.57 bitrate=6411.1kbits/s speed=0.287x elapsed=0:01:18.67    
+[swscaler @ 0xb400007cc2068000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007cc20ca000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007cc21da000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007e0bb32000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007e0bb8c000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007e172c7000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007e1731e000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007e1737f000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007cc2068000] [swscaler @ 0xb400007df920d000] No accelerated colorspace conversion found from yuva420p to gbrap.
+frame=  689 fps=8.7 q=-0.0 size=   17920KiB time=00:00:22.89 bitrate=6413.1kbits/s speed=0.289x elapsed=0:01:19.17    
+frame=  694 fps=8.7 q=-0.0 size=   18176KiB time=00:00:23.10 bitrate=6445.8kbits/s speed=0.29x elapsed=0:01:19.67    
+frame=  697 fps=8.7 q=-0.0 size=   18432KiB time=00:00:23.20 bitrate=6508.4kbits/s speed=0.289x elapsed=0:01:20.17    
+frame=  702 fps=8.7 q=-0.0 size=   18432KiB time=00:00:23.33 bitrate=6469.7kbits/s speed=0.289x elapsed=0:01:20.67    
+frame=  706 fps=8.7 q=-0.0 size=   18432KiB time=00:00:23.48 bitrate=6428.6kbits/s speed=0.289x elapsed=0:01:21.18    
+frame=  712 fps=8.7 q=-0.0 size=   18688KiB time=00:00:23.70 bitrate=6459.6kbits/s speed=0.29x elapsed=0:01:21.68    
+frame=  716 fps=8.7 q=-0.0 size=   18688KiB time=00:00:23.80 bitrate=6430.3kbits/s speed=0.29x elapsed=0:01:22.18    
+frame=  721 fps=8.7 q=-0.0 size=   18944KiB time=00:00:24.00 bitrate=6466.2kbits/s speed=0.29x elapsed=0:01:22.68    
+frame=  726 fps=8.7 q=-0.0 size=   18944KiB time=00:00:24.16 bitrate=6421.6kbits/s speed=0.291x elapsed=0:01:23.18    
+frame=  731 fps=8.7 q=-0.0 size=   19200KiB time=00:00:24.27 bitrate=6478.8kbits/s speed=0.29x elapsed=0:01:23.68    
+frame=  735 fps=8.7 q=-0.0 size=   19200KiB time=00:00:24.46 bitrate=6428.6kbits/s speed=0.291x elapsed=0:01:24.18    
+frame=  740 fps=8.7 q=-0.0 size=   19456KiB time=00:00:24.63 bitrate=6470.3kbits/s speed=0.291x elapsed=0:01:24.68    
+frame=  745 fps=8.7 q=-0.0 size=   19456KiB time=00:00:24.80 bitrate=6426.8kbits/s speed=0.291x elapsed=0:01:25.18    
+frame=  749 fps=8.7 q=-0.0 size=   19456KiB time=00:00:24.89 bitrate=6402.0kbits/s speed=0.291x elapsed=0:01:25.68    
+frame=  753 fps=8.7 q=-0.0 size=   19712KiB time=00:00:25.06 bitrate=6442.1kbits/s speed=0.291x elapsed=0:01:26.18    
+frame=  759 fps=8.8 q=-0.0 size=   19968KiB time=00:00:25.25 bitrate=6476.1kbits/s speed=0.291x elapsed=0:01:26.69    
+frame=  763 fps=8.8 q=-0.0 size=   19968KiB time=00:00:25.40 bitrate=6440.1kbits/s speed=0.291x elapsed=0:01:27.19    
+frame=  768 fps=8.8 q=-0.0 size=   19968KiB time=00:00:25.55 bitrate=6400.4kbits/s speed=0.291x elapsed=0:01:27.69    
+frame=  773 fps=8.8 q=-0.0 size=   20224KiB time=00:00:25.73 bitrate=6438.2kbits/s speed=0.292x elapsed=0:01:28.19    
+frame=  778 fps=8.8 q=-0.0 size=   20224KiB time=00:00:25.87 bitrate=6402.3kbits/s speed=0.292x elapsed=0:01:28.69    
+frame=  783 fps=8.8 q=-0.0 size=   20480KiB time=00:00:26.06 bitrate=6436.3kbits/s speed=0.292x elapsed=0:01:29.19    
+frame=  787 fps=8.8 q=-0.0 size=   20480KiB time=00:00:26.13 bitrate=6419.9kbits/s speed=0.291x elapsed=0:01:29.69    
+frame=  793 fps=8.8 q=-0.0 size=   20736KiB time=00:00:26.36 bitrate=6442.3kbits/s speed=0.292x elapsed=0:01:30.20    
+frame=  798 fps=8.8 q=-0.0 size=   20736KiB time=00:00:26.49 bitrate=6411.1kbits/s speed=0.292x elapsed=0:01:30.70    
+frame=  803 fps=8.8 q=-0.0 size=   20992KiB time=00:00:26.73 bitrate=6433.3kbits/s speed=0.293x elapsed=0:01:31.20    
+frame=  807 fps=8.8 q=-0.0 size=   20992KiB time=00:00:26.85 bitrate=6402.7kbits/s speed=0.293x elapsed=0:01:31.70    
+frame=  814 fps=8.8 q=-0.0 size=   21248KiB time=00:00:27.10 bitrate=6423.0kbits/s speed=0.294x elapsed=0:01:32.20    
+frame=  818 fps=8.8 q=-0.0 size=   21504KiB time=00:00:27.23 bitrate=6468.6kbits/s speed=0.294x elapsed=0:01:32.70    
+frame=  824 fps=8.8 q=-0.0 size=   21504KiB time=00:00:27.43 bitrate=6421.4kbits/s speed=0.294x elapsed=0:01:33.20    
+frame=  828 fps=8.8 q=-0.0 size=   21504KiB time=00:00:27.56 bitrate=6390.4kbits/s speed=0.294x elapsed=0:01:33.70    
+frame=  833 fps=8.8 q=-0.0 size=   21760KiB time=00:00:27.73 bitrate=6427.6kbits/s speed=0.294x elapsed=0:01:34.20    
+frame=  838 fps=8.8 q=-0.0 size=   21760KiB time=00:00:27.88 bitrate=6393.2kbits/s speed=0.294x elapsed=0:01:34.71    
+frame=  844 fps=8.9 q=-0.0 size=   22016KiB time=00:00:28.03 bitrate=6433.9kbits/s speed=0.294x elapsed=0:01:35.21    
+frame=  849 fps=8.9 q=-0.0 size=   22272KiB time=00:00:28.26 bitrate=6454.7kbits/s speed=0.295x elapsed=0:01:35.71    
+frame=  854 fps=8.9 q=-0.0 size=   22272KiB time=00:00:28.39 bitrate=6425.6kbits/s speed=0.295x elapsed=0:01:36.21    
+frame=  857 fps=8.9 q=-0.0 size=   22272KiB time=00:00:28.48 bitrate=6406.3kbits/s speed=0.294x elapsed=0:01:36.71    
+frame=  863 fps=8.9 q=-0.0 size=   22528KiB time=00:00:28.71 bitrate=6427.0kbits/s speed=0.295x elapsed=0:01:37.22    
+frame=  867 fps=8.9 q=-0.0 size=   22528KiB time=00:00:28.80 bitrate=6408.0kbits/s speed=0.295x elapsed=0:01:37.72    
+frame=  872 fps=8.9 q=-0.0 size=   22784KiB time=00:00:29.03 bitrate=6428.7kbits/s speed=0.296x elapsed=0:01:38.22    
+frame=  876 fps=8.9 q=-0.0 size=   22784KiB time=00:00:29.14 bitrate=6404.9kbits/s speed=0.295x elapsed=0:01:38.72    
+frame=  880 fps=8.9 q=-0.0 size=   23040KiB time=00:00:29.24 bitrate=6453.2kbits/s speed=0.295x elapsed=0:01:39.23    
+frame=  885 fps=8.9 q=-0.0 size=   23040KiB time=00:00:29.41 bitrate=6415.8kbits/s speed=0.295x elapsed=0:01:39.73    
+frame=  890 fps=8.9 q=-0.0 size=   23040KiB time=00:00:29.54 bitrate=6388.0kbits/s speed=0.295x elapsed=0:01:40.23    
+frame=  894 fps=8.9 q=-0.0 size=   23296KiB time=00:00:29.76 bitrate=6411.2kbits/s speed=0.296x elapsed=0:01:40.73    
+frame=  899 fps=8.9 q=-0.0 size=   23296KiB time=00:00:29.84 bitrate=6394.3kbits/s speed=0.295x elapsed=0:01:41.23    
+frame=  903 fps=8.9 q=-0.0 size=   23552KiB time=00:00:30.06 bitrate=6417.0kbits/s speed=0.296x elapsed=0:01:41.73    
+frame=  907 fps=8.9 q=-0.0 size=   23552KiB time=00:00:30.12 bitrate=6405.1kbits/s speed=0.295x elapsed=0:01:42.23    
+frame=  912 fps=8.9 q=-0.0 size=   23808KiB time=00:00:30.35 bitrate=6424.7kbits/s speed=0.295x elapsed=0:01:42.73    
+frame=  916 fps=8.9 q=-0.0 size=   23808KiB time=00:00:30.37 bitrate=6420.1kbits/s speed=0.294x elapsed=0:01:43.23    
+frame=  917 fps=8.8 q=-0.0 size=   23808KiB time=00:00:30.40 bitrate=6415.6kbits/s speed=0.293x elapsed=0:01:43.73    
+[swscaler @ 0xb400007df885f000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007e41d68000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007e0176b000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007df8d87000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007df8ddb000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007e177a7000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007e014b1000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007e0151d000] No accelerated colorspace conversion found from yuva420p to gbrap.
+[swscaler @ 0xb400007df885f000] [swscaler @ 0xb400007df8e8c000] No accelerated colorspace conversion found from yuva420p to gbrap.
+frame=  918 fps=8.8 q=-0.0 size=   23808KiB time=00:00:30.54 bitrate=6384.3kbits/s speed=0.293x elapsed=0:01:44.24    
+frame=  922 fps=8.8 q=-0.0 size=   24064KiB time=00:00:30.70 bitrate=6421.3kbits/s speed=0.293x elapsed=0:01:44.74    
+frame=  925 fps=8.8 q=-0.0 size=   24064KiB time=00:00:30.80 bitrate=6400.4kbits/s speed=0.293x elapsed=0:01:45.24    
+frame=  929 fps=8.8 q=-0.0 size=   24320KiB time=00:00:30.93 bitrate=6440.6kbits/s speed=0.293x elapsed=0:01:45.74    
+frame=  934 fps=8.8 q=-0.0 size=   24320KiB time=00:00:31.10 bitrate=6406.1kbits/s speed=0.293x elapsed=0:01:46.24    
+frame=  937 fps=8.8 q=-0.0 size=   24576KiB time=00:00:31.20 bitrate=6452.8kbits/s speed=0.292x elapsed=0:01:46.74    
+frame=  942 fps=8.8 q=-0.0 size=   24576KiB time=00:00:31.36 bitrate=6418.5kbits/s speed=0.292x elapsed=0:01:47.24    
+frame=  948 fps=8.8 q=-0.0 size=   24576KiB time=00:00:31.56 bitrate=6377.8kbits/s speed=0.293x elapsed=0:01:47.74    
+frame=  951 fps=8.8 q=-0.0 size=   24832KiB time=00:00:31.66 bitrate=6423.9kbits/s speed=0.293x elapsed=0:01:48.24    
+frame=  956 fps=8.8 q=-0.0 size=   24832KiB time=00:00:31.83 bitrate=6390.3kbits/s speed=0.293x elapsed=0:01:48.74    
+frame=  960 fps=8.8 q=-0.0 size=   25088KiB time=00:00:31.95 bitrate=6431.1kbits/s speed=0.293x elapsed=0:01:49.25    
+frame=  966 fps=8.8 q=-0.0 size=   25088KiB time=00:00:32.14 bitrate=6392.7kbits/s speed=0.293x elapsed=0:01:49.75    
+frame=  970 fps=8.8 q=-0.0 size=   25344KiB time=00:00:32.30 bitrate=6427.8kbits/s speed=0.293x elapsed=0:01:50.25    
+frame=  975 fps=8.8 q=-0.0 size=   25344KiB time=00:00:32.42 bitrate=6402.7kbits/s speed=0.293x elapsed=0:01:50.75    
+frame=  979 fps=8.8 q=-0.0 size=   25344KiB time=00:00:32.60 bitrate=6368.7kbits/s speed=0.293x elapsed=0:01:51.25    
+frame=  984 fps=8.8 q=-0.0 size=   25600KiB time=00:00:32.76 bitrate=6400.3kbits/s speed=0.293x elapsed=0:01:51.75    
+frame=  988 fps=8.8 q=-0.0 size=   25600KiB time=00:00:32.87 bitrate=6379.2kbits/s speed=0.293x elapsed=0:01:52.26    
+frame=  992 fps=8.8 q=-0.0 size=   25856KiB time=00:00:33.03 bitrate=6412.1kbits/s speed=0.293x elapsed=0:01:52.76    
+frame=  996 fps=8.8 q=-0.0 size=   26112KiB time=00:00:33.16 bitrate=6449.5kbits/s speed=0.293x elapsed=0:01:53.26    
+frame= 1001 fps=8.8 q=-0.0 size=   26112KiB time=00:00:33.33 bitrate=6417.3kbits/s speed=0.293x elapsed=0:01:53.76    
+frame= 1006 fps=8.8 q=-0.0 size=   26112KiB time=00:00:33.47 bitrate=6390.7kbits/s speed=0.293x elapsed=0:01:54.26    
+frame= 1011 fps=8.8 q=-0.0 size=   26368KiB time=00:00:33.66 bitrate=6416.6kbits/s speed=0.293x elapsed=0:01:54.76    
+frame= 1015 fps=8.8 q=-0.0 size=   26368KiB time=00:00:33.80 bitrate=6390.7kbits/s speed=0.293x elapsed=0:01:55.26    
+frame= 1019 fps=8.8 q=-0.0 size=   26368KiB time=00:00:33.93 bitrate=6365.6kbits/s speed=0.293x elapsed=0:01:55.76    
+frame= 1024 fps=8.8 q=-0.0 size=   26624KiB time=00:00:34.10 bitrate=6396.0kbits/s speed=0.293x elapsed=0:01:56.26    
+frame= 1028 fps=8.8 q=-0.0 size=   26880KiB time=00:00:34.23 bitrate=6432.4kbits/s speed=0.293x elapsed=0:01:56.76    
+frame= 1033 fps=8.8 q=-0.0 size=   26880KiB time=00:00:34.40 bitrate=6401.2kbits/s speed=0.293x elapsed=0:01:57.27    
+frame= 1037 fps=8.8 q=-0.0 size=   26880KiB time=00:00:34.53 bitrate=6376.5kbits/s speed=0.293x elapsed=0:01:57.77    
+frame= 1041 fps=8.8 q=-0.0 size=   27136KiB time=00:00:34.66 bitrate=6412.5kbits/s speed=0.293x elapsed=0:01:58.27    
+frame= 1046 fps=8.8 q=-0.0 size=   27136KiB time=00:00:34.83 bitrate=6381.8kbits/s speed=0.293x elapsed=0:01:58.77    
+frame= 1050 fps=8.8 q=-0.0 size=   27136KiB time=00:00:34.96 bitrate=6357.7kbits/s speed=0.293x elapsed=0:01:59.27    
+frame= 1055 fps=8.8 q=-0.0 size=   27392KiB time=00:00:35.11 bitrate=6390.4kbits/s speed=0.293x elapsed=0:01:59.77    
+frame= 1059 fps=8.8 q=-0.0 size=   27648KiB time=00:00:35.26 bitrate=6422.3kbits/s speed=0.293x elapsed=0:02:00.27    
+frame= 1064 fps=8.8 q=-0.0 size=   27648KiB time=00:00:35.43 bitrate=6392.1kbits/s speed=0.293x elapsed=0:02:00.77    
+frame= 1067 fps=8.8 q=-0.0 size=   27648KiB time=00:00:35.53 bitrate=6374.1kbits/s speed=0.293x elapsed=0:02:01.28    
+frame= 1072 fps=8.8 q=-0.0 size=   27904KiB time=00:00:35.70 bitrate=6403.1kbits/s speed=0.293x elapsed=0:02:01.78    
+frame= 1076 fps=8.8 q=-0.0 size=   27904KiB time=00:00:35.79 bitrate=6385.7kbits/s speed=0.293x elapsed=0:02:02.28    
+frame= 1082 fps=8.8 q=-0.0 size=   28160KiB time=00:00:35.98 bitrate=6409.9kbits/s speed=0.293x elapsed=0:02:02.78    
+frame= 1087 fps=8.8 q=-0.0 size=   28160KiB time=00:00:36.20 bitrate=6372.6kbits/s speed=0.294x elapsed=0:02:03.28    
+frame= 1091 fps=8.8 q=-0.0 size=   28416KiB time=00:00:36.33 bitrate=6406.9kbits/s speed=0.294x elapsed=0:02:03.78    
+frame= 1095 fps=8.8 q=-0.0 size=   28416KiB time=00:00:36.46 bitrate=6383.5kbits/s speed=0.293x elapsed=0:02:04.29    
+frame= 1100 fps=8.8 q=-0.0 size=   28672KiB time=00:00:36.60 bitrate=6416.1kbits/s speed=0.293x elapsed=0:02:04.79    
+frame= 1104 fps=8.8 q=-0.0 size=   28672KiB time=00:00:36.76 bitrate=6388.4kbits/s speed=0.293x elapsed=0:02:05.29    
+frame= 1109 fps=8.8 q=-0.0 size=   28928KiB time=00:00:36.93 bitrate=6416.4kbits/s speed=0.294x elapsed=0:02:05.79    
+frame= 1114 fps=8.8 q=-0.0 size=   28928KiB time=00:00:37.10 bitrate=6387.6kbits/s speed=0.294x elapsed=0:02:06.29    
+frame= 1118 fps=8.8 q=-0.0 size=   29184KiB time=00:00:37.23 bitrate=6421.0kbits/s speed=0.294x elapsed=0:02:06.80    
+frame= 1123 fps=8.8 q=-0.0 size=   29184KiB time=00:00:37.40 bitrate=6392.4kbits/s speed=0.294x elapsed=0:02:07.30    
+frame= 1126 fps=8.8 q=-0.0 size=   29440KiB time=00:00:37.50 bitrate=6431.3kbits/s speed=0.293x elapsed=0:02:07.80    
+frame= 1131 fps=8.8 q=-0.0 size=   29440KiB time=00:00:37.66 bitrate=6402.8kbits/s speed=0.294x elapsed=0:02:08.30    
+frame= 1135 fps=8.8 q=-0.0 size=   29440KiB time=00:00:37.78 bitrate=6383.4kbits/s speed=0.293x elapsed=0:02:08.80    
+frame= 1140 fps=8.8 q=-0.0 size=   29696KiB time=00:00:37.96 bitrate=6407.5kbits/s speed=0.294x elapsed=0:02:09.30    
+frame= 1145 fps=8.8 q=-0.0 size=   29696KiB time=00:00:38.12 bitrate=6381.2kbits/s speed=0.294x elapsed=0:02:09.80    
+frame= 1149 fps=8.8 q=-0.0 size=   29952KiB time=00:00:38.18 bitrate=6425.5kbits/s speed=0.293x elapsed=0:02:10.30    
+frame= 1154 fps=8.8 q=-0.0 size=   29952KiB time=00:00:38.43 bitrate=6384.2kbits/s speed=0.294x elapsed=0:02:10.80    
+[mp4 @ 0xb400007e5e28df80] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xb400007e5aa19000] video:29310KiB audio:939KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.112561%
+frame= 1158 fps=8.8 q=-0.0 Lsize=   30282KiB time=00:00:38.56 bitrate=6432.3kbits/s speed=0.294x elapsed=0:02:11.23    
+[aac @ 0xb400007e5a66f680] Qavg: 2294.629
